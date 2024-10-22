@@ -328,4 +328,42 @@ This repository contains the backend project that was an assignment from COVIN.A
 - **500 Internal Server Error:** An error occurred on the server.
 
 
+## Setup Instrictions
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/harsh-2025/convinaiassign.git
+    ```
+2. **Create the Database:** Execute the provided SQL script (SQL.sql) to create the MySQL database named “DailyExpSharingApp”. You can do this using a MySQL client or command line.
+
+3. **Configure Database Connection:**
+    - Navigate to the cloned repository.
+    - Open the `dbConnection.js` file.
+    - Update the `host`, `user`, and `password` fields according to your MySQL database configuration.
+4. **Install Dependencies:** Open your terminal and run the following command:
+```bash
+npm install
+```
+5. **Start the Server:** To run the server, execute:
+```bash
+npm start
+```
+
+6. **Run Integration Tests:** To perform integration testing, run:
+```bash
+npm test
+```
+## Additional Point to keep in Mind
++ Always refer to the API documentation for logical requests.
++ The person creating the expense split must be a participant.
++ Ensure that every participant is registered before making API requests to avoid server errors.
+
+Feel free to ask queries ! 😊
+
+## 🔗 Links
+[![Gmail](https://img.shields.io/badge/Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshofficialrawat@gmail.com)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-rawat-6970b822a)
+[![Phone](https://img.shields.io/badge/📞%20Phone-%23007BFF?style=for-the-badge&logo=phone&logoColor=white)](tel:+919413918825)
+
 
